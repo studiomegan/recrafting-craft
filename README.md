@@ -9,7 +9,7 @@ Recrafting Craft, by Mascha van Zijverden, consists of 10 parts, all of somewhat
 ### PRINT
 In the printed version Mascha’s part is used as a wrapper around all other parts, to emphasize the fact that she is the initiator and curator of this project. All other parts are printed on 7 different newspaper spreads. The newspaper is not stapled, so these parts have no particular order and are non-linear. 
 
-(Recrafting Craft)[https://www.studiomegan.nl/wp-content/uploads/2018/07/mockup8.png]
+[[https://www.studiomegan.nl/wp-content/uploads/2018/07/mockup8.png]]
 
 ### WEBPAGE
 The setup for the webpage is a Side Navigation Menu with keywords and a Main Part with the content, the latter one is build up by 10 blocks [divs]. Each block contains one part (i.e. text or scenario). When opening the webpage all parts are in a specific order, set by the author. 
