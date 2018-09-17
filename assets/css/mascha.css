@@ -1,0 +1,786 @@
+body {
+  overflow: hidden; 
+}
+
+div#arrowscrollmascha {
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 85vh;
+  margin: 0px;
+  color: #283583;
+  cursor: pointer;
+  z-index: 99999999999999999; 
+}
+div#arrowscrollmascha .arrow {
+  text-align: center;
+  animation: blinker 1.5s ease infinite;
+  background-color: transparent;
+  font-size: 3vw;
+  color: #283583; 
+}
+
+.containermas {
+  position: relative;
+  width: 100%;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.containermas h1.mascha2, .containermas button.mascha2 {
+  font-family: "Haptik", sans-serif !important;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  text-indent: 0px !important; 
+}
+.containermas button {
+  line-height: 1.8;
+  font-family: "Haptik", sans-serif !important;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  transition: .3s;
+  padding: 0; 
+}
+.containermas a {
+  color: #333; 
+}
+.containermas button:focus {
+  outline: 0; 
+}
+.containermas p {
+  font-family: "Haptik", sans-serif !important;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5; 
+}
+.containermas .space {
+  margin-top: 50px;
+  display: block; 
+}
+.containermas .headertitle {
+  padding: 40px 80px; 
+}
+.containermas .headertitle h1.title {
+  line-height: 0.85;
+  text-transform: uppercase;
+  font-family: "Haptik", sans-serif !important;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  font-size: 12vw;
+  font-weight: bold;
+  margin: 0;
+  color: #283583; 
+}
+.containermas .headertitle h2.subtitle {
+  line-height: 1.5;
+  font-family: "HaptikRotalic", sans-serif !important;
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #283583; 
+}
+.containermas .headertitle .width {
+  width: 96%; 
+}
+.containermas .headertitle h2.name {
+  font-family: "Haptik", sans-serif !important;
+  font-size: 15pt;
+  color: #283583;
+  width: 75% !important; 
+}
+.containermas #headerfade {
+  z-index: 9999999999;
+  position: fixed;
+  top: 0; 
+}
+.containermas .header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fcdcdb;
+  scroll-snap-align: end; 
+}
+.containermas .block {
+  padding: 0px 0 58px 0;
+  margin: 0 auto;
+  font-family: "Haptik", sans-serif, sans-serif !important;
+  font-size: 12pt;
+  display: block;
+  line-height: 1.8;
+  color: #283583;
+
+}
+.containermas .block .kopbig {
+  font-size: 72px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin: 0px 0 50px 0px;
+  display: block; 
+}
+.containermas .block .left {
+  margin: 15px 0 0 0; 
+}
+@media screen and (min-width: 1200px) {
+  .containermas .block .left {
+    width: 820px;
+    margin: 0 auto; 
+} 
+}
+.containermas .block img.georgsmall {
+  cursor: pointer !important;
+  transition: all .5s ease-in-out;
+  width: 100%; 
+}
+.containermas .block img.georgsmall.wide {
+  height: 300px !important;
+  width: auto !important; 
+}
+.containermas .block .bohle {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: block; 
+}
+.containermas .block .hide {
+  display: none; 
+}
+.containermas .block .fullheight {
+  height: 90%;
+  width: auto !important; 
+}
+.containermas .block .kop {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin: 0px auto 0px auto;
+  display: block;
+  z-index: 3;
+  position: relative;
+  padding: 35px 0 10px 0; 
+}
+.containermas .block .subkop {
+  font-family: "HaptikRotalic", sans-serif !important;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18pt;
+  display: block;
+  margin: 0px auto;
+  padding: 30px 0 5px 0; 
+}
+.containermas .block .subkop2 {
+  padding: 35px 0 5px 0; 
+}
+.containermas .block .lab, .containermas .block .farm, .containermas .block .mall, .containermas .block .arch, .containermas .block .gara, .containermas .block .every {
+  margin: 0px auto 20px auto; 
+}
+.containermas .block .name {
+  display: block;
+  margin: 35px auto 3px auto;
+  font-weight: bold;
+  font-size: 14pt; 
+}
+.containermas .block .name2 {
+  margin: 38px auto 0px auto; 
+}
+.containermas .block .rotalic {
+  font-family: "HaptikRotalic", sans-serif !important; 
+}
+.containermas .block .namejose {
+  font-family: "Haptik", sans-serif !important; 
+}
+.containermas .block .text {
+  font-family: "Haptik", sans-serif !important;
+  font-size: 12pt;
+  line-height: 2;
+  display: block;
+  margin: 32px auto 0px auto;
+  font-weight: normal; 
+}
+.containermas .block .text2 {
+  margin: 35px auto 0px auto; 
+}
+.containermas .block .indent {
+  display: block;
+  text-indent: 40px;
+  margin-top: 0px !important; 
+}
+.containermas .block .italic {
+  font-style: oblique; 
+}
+.containermas .block .bio {
+  font-size: 10pt;
+  margin: 39px auto 0 auto;
+  display: block;
+  font-weight: normal; 
+}
+.containermas .block .bio2 {
+  margin: 42px auto 2px auto; 
+}
+.containermas .block .bio3 {
+  margin: 40px auto 2px auto; 
+}
+.containermas .block .bio4 {
+  margin: 34px auto 2px auto; 
+}
+.containermas .block button {
+  border: 0;
+  background-color: transparent;
+  display: inline;
+  font-size: 10pt;
+  font-weight: normal;
+  color: #ffaaaa; 
+}
+.containermas .block button:hover {
+  color: #f1f1f1 !important; 
+}
+@media screen and (max-width: 1200px) {
+  .containermas .block {
+    width: 100%;
+    margin: 0 auto; 
+  }
+  .containermas .kop, .containermas .subkop, .containermas .text, .containermas .name, .containermas .bio, .containermas .kopbig, .containermas .blockt, .containermas .textcolo, .containermas .logos {
+    width: 80%; 
+  }
+  .containermas .left {
+    margin: 0 auto !important; 
+  }
+  .containermas #colophon {
+    width: 90%; 
+  } 
+}
+
+@media screen and (min-width: 1200px) {
+  .containermas .block, .containermas .blockt {
+    width: 100%; 
+  }
+  .containermas .kop, .containermas .subkop, .containermas .text, .containermas .name, .containermas .bio, .containermas .textcolo, .containermas .logos {
+    width: 700px; 
+  }
+  .containermas #colophon {
+    width: 800px; 
+  } 
+}
+.containermas .blockt {
+  padding: 30px 0 0 0;
+  text-indent: 0;
+  font-family: "HaptikRotalic", sans-serif !important;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18pt;
+  display: block;
+  line-height: 1.8; 
+}
+
+@media screen and (max-width: 900px) {
+  .containermas .blockt {
+    margin: 12px 0 15px 0%; 
+  } 
+}
+.containermas .textmascha {
+  margin-left: 100px;
+  padding: 20px;
+  max-width: 500px; 
+}
+.containermas .textmascha1 {
+  margin: 8px auto; 
+}
+.containermas .easyzoom {
+  position: relative;
+  /* 'Shrink-wrap' the element */
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; 
+}
+.containermas .gotoback {
+  z-index: -1 !important; 
+}
+.containermas .easyzoom img {
+  vertical-align: bottom; 
+}
+.containermas .easyzoom.is-loading img {
+  cursor: progress; 
+}
+.containermas .easyzoom.is-ready img {
+  cursor: crosshair; 
+}
+.containermas .easyzoom.is-error img {
+  cursor: not-allowed; 
+}
+.containermas .easyzoom-notice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 150;
+  width: 10em;
+  margin: -1em 0 0 -5em;
+  line-height: 2em;
+  text-align: center;
+  background: #FFF;
+  box-shadow: 0 0 10px #888; 
+}
+.containermas .easyzoom-flyout {
+  position: fixed;
+  z-index: 100000000000;
+  display: block;
+  overflow: hidden;
+  background: #FFF; 
+}
+.containermas .toggle {
+  margin: 20px 0 50px 40%;
+  width: 20%;
+  text-align: center;
+  font-size: 14pt !important; 
+}
+.containermas .easyzoom--overlay .easyzoom-flyout {
+  top: 5vh;
+  left: 5vw;
+  width: 90vw;
+  height: 90vh; 
+}
+.containermas .easyzoom--overlay .easyzoom-flyout img {
+  margin: 0 auto; 
+}
+@media screen and (min-width: 789px) {
+  .containermas .easyzoom--overlay .easyzoom-flyout img {
+    width: 3000px; 
+  }
+  .containermas #georg1.easyzoom--overlay .easyzoom-flyout img {
+    width: 2600px !important; 
+  }
+  .containermas #georg2.easyzoom--overlay .easyzoom-flyout img {
+    width: 2600px !important; 
+  }
+  .containermas #georg3.easyzoom--overlay .easyzoom-flyout img {
+    width: 2600px !important; 
+  }
+  .containermas #georg4.easyzoom--overlay .easyzoom-flyout img {
+    width: 2900px !important; 
+  }
+  .containermas #georg5.easyzoom--overlay .easyzoom-flyout img {
+    height: 1500px !important;
+    width: auto !important; 
+  }
+  .containermas #georg6.easyzoom--overlay .easyzoom-flyout img {
+    width: 2900px !important; 
+  } 
+}
+
+@media screen and (min-width: 1400px) {
+  .containermas .easyzoom--overlay .easyzoom-flyout img {
+    width: 6000px; 
+  }
+  .containermas #georg1.easyzoom--overlay .easyzoom-flyout img {
+    width: 3602px !important; 
+  }
+  .containermas #georg2.easyzoom--overlay .easyzoom-flyout img {
+    width: 3602px !important; 
+  }
+  .containermas #georg3.easyzoom--overlay .easyzoom-flyout img {
+    width: 3602px !important; 
+  }
+  .containermas #georg4.easyzoom--overlay .easyzoom-flyout img {
+    width: 3900px !important; 
+  }
+  .containermas #georg5.easyzoom--overlay .easyzoom-flyout img {
+    height: 2500px !important;
+    width: auto !important; 
+  }
+  .containermas #georg6.easyzoom--overlay .easyzoom-flyout img {
+    width: 3900px !important; 
+  } 
+}
+
+.containermas .easyzoom--adjacent .easyzoom-flyout {
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px; 
+}
+.containermas #hidden-parts {
+  display: none; 
+}
+.containermas .blue {
+  color: #283583 !important;
+  font-family: "HaptikRotalic", sans-serif !important; 
+}
+
+@media screen and (min-width: 789px) {
+  .containermas .sidenav {
+    width: 25vw !important; 
+  }
+  .containermas .arrow-right {
+    display: none !important; 
+  }
+  .containermas #main {
+    min-width: 500px; 
+  }
+  .containermas .smallscreen {
+    display: none; 
+  }
+  .containermas .bigscreen {
+    display: block; 
+  } 
+}
+
+@media screen and (max-width: 788px) {
+  .containermas .smallscreen {
+    display: block; 
+  }
+  .containermas .bigscreen {
+    display: none; 
+  }
+  .containermas .headertitle {
+    padding: 20px 0px 0 20px !important; 
+  }
+  .containermas h1.title {
+    font-size: 46px !important; 
+  }
+  .containermas h2.subtitle {
+    font-size: 14pt !important;
+    width: 100% !important; 
+  }
+  .containermas .width {
+    width: 80%; 
+  }
+  .containermas .kopbig {
+    font-size: 18pt !important;
+    margin: 15px auto 0 auto !important;
+    padding-left: 0px !important; 
+  }
+  .containermas .subkop {
+    font-size: 15pt !important; 
+  }
+  .containermas div#arrowscrollmascha {
+    margin-top: 0% !important;
+    position: relative;
+    top: 0; 
+  }
+  .containermas div#arrowscrollmascha button, .containermas .kop {
+    font-size: 18pt !important; 
+  }
+  .containermas .recrafting-craft {
+    margin-top: 30px !important; 
+  }
+  .containermas h2.name, .containermas .name {
+    font-size: 12pt !important; 
+  }
+  .containermas .blockt {
+    font-size: 12pt !important; 
+  }
+  .containermas .sidenav {
+    z-index: 99999 !important; 
+  }
+  .containermas #main {
+    width: auto !important;
+    margin-left: 50px !important;
+    right: 0 !important;
+    min-width: 100px; 
+  }
+  .containermas #georg2 {
+    margin: 0px 0 0 0px !important; 
+  }
+  .containermas #georg3 {
+    margin: 0px 0 0 0px !important; 
+  }
+  .containermas #georg4 {
+    margin: 0px 0 0 0px !important; 
+  }
+  .containermas #georg5 {
+    margin: 0px -30px 0 -25px !important; 
+  }
+  .containermas #georg6 {
+    margin: 0px 0 0 0px !important; 
+  }
+  .containermas .lab, .containermas .gara, .containermas .mall, .containermas .arch, .containermas .farm, .containermas .every {
+    margin-top: 0px; 
+  }
+  .containermas img.georgsmall {
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    cursor: default !important; 
+  }
+  .containermas #colophon {
+    font-size: 10pt; 
+  }
+    .containermas #colophon .logos img {
+      margin: 40px auto 0 auto !important;
+      display: block; 
+  } 
+}
+
+@media screen and (min-width: 1400px) {
+  .containermas h1.title {
+    font-size: 150pt !important; 
+  }
+  .containermas h2.subtitle {
+    font-size: 42pt !important; 
+  }
+  .containermas h2.name {
+    font-size: 21pt !important;
+    width: 850px !important; 
+  } 
+}
+
+.containermas .sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 0px 0px 0px;
+  background: #fcdcdb;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 99; 
+}
+.containermas .sidenav .rotate {
+  -ms-transform: rotate(-180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-180deg);
+  /* Safari 3-8 */
+  display: inline-block;
+  transform: rotate(-180deg); 
+}
+.containermas .sidenav span.contentsarrow.contentsarrowdown {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite; 
+}
+.containermas .sidenav #contentscontents {
+  display: none; 
+}
+.containermas .sidenav button.mascha2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #283583;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  margin: 0px 0 10px 0px; 
+}
+.containermas .sidenav button.mascha2:hover, .containermas .sidenav button.mascha1:hover {
+  font-family: "HaptikRotalic", sans-serif !important;
+  color: #f1f1f1; 
+}
+.containermas .sidenav button.mascha1 {
+  text-indent: 0; 
+}
+.containermas .sidenav button {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #ffaaaa;
+  background-color: #fcdcdb;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding-left: 26px;
+  transition: .3s;
+  width: 100%;
+  text-indent: -26px; 
+}
+@media screen and (max-height: 450px) {
+  .containermas .sidenav button {
+    padding-left: 40px;
+    text-indent: -40px; 
+  } 
+}
+
+.containermas .sidenav .keywordsindex {
+  padding: 0px 10px 0px 15px; 
+}
+.containermas .sidenav .keywordsindex .navtitle {
+  padding-left: 32px;
+  text-indent: -32px; 
+}
+.containermas .sidenav .keywordsindex button {
+  font-weight: normal; 
+}
+.containermas .sidenav .keywordsindex button:hover {
+  color: #f1f1f1;
+  font-family: "HaptikRotalic", sans-serif !important; 
+}
+.containermas .sidenav .keywordsindex .indent {
+  margin-left: 26px; 
+}
+.containermas .arrow-right {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 50px;
+  z-index: 9;
+  height: 100%;
+  background: #fcdcdb;
+  display: block; 
+}
+.containermas .arrow-right p {
+  color: #283583;
+  margin-left: 11px;
+  font-size: 25px;
+  top: 0; 
+}
+.containermas .sidenav a:hover, .containermas .sidenav .navtitle:hover {
+  color: #f1f1f1 !important; 
+}
+.containermas .closebtn {
+  position: fixed;
+  top: 1vh;
+  right: 3vw;
+  z-index: 999999999999999;
+  font-family: "Haptik", sans-serif;
+  font-size: 36px;
+  color: #283583;
+  position: fixed;
+  line-height: 0.75; 
+}
+.containermas .closebtn:hover {
+  font-family: "HaptikRotalic", sans-serif !important; 
+}
+.containermas #main {
+  transition: margin-left .5s;
+  margin-left: 25vw;
+  width: 75vw;
+  min-height: 100vh;
+  z-index: 100;
+  overflow: hidden; 
+}
+
+@media screen and (max-height: 450px) {
+  .containermas .sidenav {
+    padding-top: 15px; 
+  }
+  .containermas .sidenav a {
+    font-size: 14pt; 
+  } 
+}
+
+.containermas .modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 4;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: white;
+  /* Fallback color */
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Black w/ opacity */ 
+}
+  .containermas .modal-content {
+    margin: auto;
+    display: block;
+    width: 90%; 
+}
+  .containermas #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px; 
+}
+  .containermas .modal-content, .containermas #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s; 
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0); 
+}
+  to {
+    -webkit-transform: scale(1); 
+  } 
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0); 
+}
+  to {
+    transform: scale(1); 
+  } 
+}
+
+.containermas .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #283583;
+  font-size: 36px;
+  transition: 0.3s;
+  font-family: "Haptik", sans-serif; 
+}
+.containermas .close:hover,
+.containermas .close:focus {
+  color: #fcdcdb;
+  font-family: "HaptikRotalic", sans-serif !important;
+  text-decoration: none;
+  cursor: pointer; 
+
+}
+
+@media only screen and (max-width: 788px) {
+  .containermas .modal-content {
+    width: 100%; 
+  } 
+}
+
+.containermas #marx {
+  color: #333; 
+}
+.containermas #colophon {
+  background-color: #fcdcdb;
+  color: #ffaaaa;
+  margin-bottom: 55px;
+  font-size: 10pt;
+  padding: 11px 0 50px 0; 
+}
+.containermas #colophon .textcolo {
+  font-size: 10pt;
+  margin: 16px auto 8px auto;
+  display: block; 
+}
+.containermas #colophon a {
+  color: #ffaaaa;
+  transition: .3s; 
+}
+.containermas #colophon a:hover {
+  font-family: "HaptikRotalic", sans-serif !important;
+  color: #f1f1f1; 
+}
+.containermas #colophon .logos img {
+  margin: 40px 40px 0 auto; 
+}
+.containermas #colophon .linebr {
+  display: block; 
+}
+
+.progress-bar {
+  display: none !important; 
+}
+
+
