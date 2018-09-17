@@ -13,6 +13,13 @@ Recrafting Craft, by Mascha van Zijverden, consists of 10 parts, all of somewhat
 In the printed version Mascha’s part is used as a wrapper around all other parts, to emphasize the fact that she is the initiator and curator of this project. All other parts are printed on 7 different newspaper spreads. The newspaper is not stapled, so these parts have no particular order and are non-linear. 
 
 ![Recrafting Craft](assets/recrafting_craft.png)
+![Recrafting Craft](assets/mockup2.png)
+![Recrafting Craft](assets/mockup3.png)
+![Recrafting Craft](assets/mockup4.png)
+![Recrafting Craft](assets/mockup5.png)
+![Recrafting Craft](assets/mockup6.png)
+![Recrafting Craft](assets/mockup7.png)
+![Recrafting Craft](assets/mockup8.png)
 
 ### WEBPAGE
 The setup for the webpage is a Side Navigation Menu with keywords and a Main Part with the content, the latter one is build up by 10 blocks [divs]. Each block contains one part (i.e. text or scenario). When opening the webpage all parts are in a specific order, set by the author. 
@@ -38,6 +45,10 @@ Example of a keyword button:
 - When a button is clicked the first function [changeText] changes the content of the first block on the page [fibl] with the content of the second parameter [set as a VAR in bundle.js]. 
 - The second function [chbg] changes all the connected keywords blue when one of them is clicked. The parameter connects the keywords that belong to one part.
 - The close function [closeNav] closes the Side Navigaition Menu after a keyword is clicked and the order of the texts is shifted.
+
+![Recrafting Craft Responsive](assets/RecraftinCraft_Responsive.png)
+![Recrafting Craft Responsive](assets/RecraftinCraft_Responsive2.png)
+![Recrafting Craft Responsive](assets/RecraftinCraft_Responsive3.png)
 
 ---------------
 
