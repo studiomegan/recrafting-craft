@@ -18,7 +18,7 @@ The Side Navigation Menu consists of all the keywords in alphabetical order. Eac
 
 The content of the blocks changes when a Side Navigation Menu Item is clicked. After a button is clicked the corresponding part is placed in the first block. The other parts are placed in a random order in the remaining 9 blocks. Also, the ‘active’ keyword is turned blue, and well are the other connected keywords.
 
-![Set up webpage](https://www.studiomegan.nl/wp-content/uploads/2018/09/1.png)
+![Set up webpage](assets/1.png)
 
 
 #### SIDE NAVIGATION MENU
