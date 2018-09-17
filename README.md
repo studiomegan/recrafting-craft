@@ -41,6 +41,6 @@ Example of a keyword button:
 
 ### Acknowledgements
 A few standards where used in this project:
-- ![jQuery](https://jquery.com/)
-- ![Easyzoom](https://github.com/i-like-robots/EasyZoom)
-- ![Flickity](https://flickity.metafizzy.co/)
+- [jQuery](https://jquery.com/)
+- [Easyzoom](https://github.com/i-like-robots/EasyZoom)
+- [Flickity](https://flickity.metafizzy.co/)
