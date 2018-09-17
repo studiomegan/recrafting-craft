@@ -18,7 +18,7 @@ The Side Navigation Menu consists of all the keywords in alphabetical order. Eac
 
 The content of the blocks changes when a Side Navigation Menu Item is clicked. After a button is clicked the corresponding part is placed in the first block. The other parts are placed in a random order in the remaining 9 blocks. Also, the ‘active’ keyword is turned blue, and well are the other connected keywords.
 
-[Recrafting Craft](https://github.com/studiomegan/recrafting-craft/blob/master/assets/1.png)
+[[https://github.com/studiomegan/recrafting-craft/blob/master/assets/1.png]]
 
 
 #### SIDE NAVIGATION MENU
