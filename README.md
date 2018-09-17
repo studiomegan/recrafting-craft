@@ -39,3 +39,8 @@ Example of a keyword button:
 - The second function [chbg] changes all the connected keywords blue when one of them is clicked. The parameter connects the keywords that belong to one part.
 - The close function [closeNav] closes the Side Navigaition Menu after a keyword is clicked and the order of the texts is shifted.
 
+### Acknowledgements
+A few standards where used in this project:
+- ![jQuery](https://jquery.com/)
+- ![Easyzoom](https://github.com/i-like-robots/EasyZoom)
+- ![Flickity](https://flickity.metafizzy.co/)
