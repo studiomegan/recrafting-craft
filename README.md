@@ -4,10 +4,10 @@ This project was based on hp-research-awards by Silvio Lorusso (https://github.c
 
 ### SETUP
 Recrafting Craft, by Mascha van Zijverden, consists of 10 parts, all of somewhat equal importance. These parts are:
-	- Preface by Jose Teunissen;
-	- Introductory text by Mascha van Zijverden herself;
-	- 6 scenarios for future fashion education by Dirk Osinga and illustrated by Georg Bohle;
-	- 2 essays by Bibi Straatman and Oscar Tomico;
+- Preface by Jose Teunissen;
+- Introductory text by Mascha van Zijverden herself;
+- 6 scenarios for future fashion education by Dirk Osinga and illustrated by Georg Bohle;
+- 2 essays by Bibi Straatman and Oscar Tomico;
 
 ### PRINT
 In the printed version Mascha’s part is used as a wrapper around all other parts, to emphasize the fact that she is the initiator and curator of this project. All other parts are printed on 7 different newspaper spreads. The newspaper is not stapled, so these parts have no particular order and are non-linear. 
@@ -25,13 +25,13 @@ The content of the blocks changes when a Side Navigation Menu Item is clicked. A
 
 #### SIDE NAVIGATION MENU
 The Side Navigation Menu has 3 components: 
-	- A ‘home’ button, which takes you back to the fullscreen landing page;
-	- Contents, which is collapsed by default and consists of all parts by title.
-	- Index, which consists of all keywords in alphabetical order.
+- A ‘home’ button, which takes you back to the fullscreen landing page;
+- Contents, which is collapsed by default and consists of all parts by title.
+- Index, which consists of all keywords in alphabetical order.
 
 #### THE CODE
 Each keyword or chapter in contents is a button with two functions with parameters and one closing function. 
-	- When a button is clicked the first function [changeText] changes the content of the first block on the page [fibl] with the content of the second parameter [set as a VAR in bundle.js]. 
-	- The second function [chbg] changes all the connected keywords blue when one of them is clicked. The parameter connects the keywords that belong to one part.
-	- The close function [closeNav] closes the Side Navigaition Menu after a keyword is clicked and the order of the texts is shifted.
+- When a button is clicked the first function [changeText] changes the content of the first block on the page [fibl] with the content of the second parameter [set as a VAR in bundle.js]. 
+- The second function [chbg] changes all the connected keywords blue when one of them is clicked. The parameter connects the keywords that belong to one part.
+- The close function [closeNav] closes the Side Navigaition Menu after a keyword is clicked and the order of the texts is shifted.
 
