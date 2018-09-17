@@ -31,8 +31,10 @@ The Side Navigation Menu has 3 components:
 
 #### THE CODE
 Each keyword or chapter in contents is a button with two functions with parameters and one closing function. 
-> Example of a keyword button:
+
+Example of a keyword button:
 > ```<button class="jose" onclick="changeText(fibl, jose); chbg(josec); closeNav()">&mdash; Preface - José Teunissen</button>```
+
 - When a button is clicked the first function [changeText] changes the content of the first block on the page [fibl] with the content of the second parameter [set as a VAR in bundle.js]. 
 - The second function [chbg] changes all the connected keywords blue when one of them is clicked. The parameter connects the keywords that belong to one part.
 - The close function [closeNav] closes the Side Navigaition Menu after a keyword is clicked and the order of the texts is shifted.
